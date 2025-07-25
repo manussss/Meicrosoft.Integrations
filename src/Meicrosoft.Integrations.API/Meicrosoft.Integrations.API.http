@@ -1,0 +1,6 @@
+@Meicrosoft.Integrations.API_HostAddress = http://localhost:5230
+
+GET {{Meicrosoft.Integrations.API_HostAddress}}/health
+Accept: application/json
+
+###

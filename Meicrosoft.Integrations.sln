@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meicrosoft.Integrations.Wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meicrosoft.Integrations.Worker.Invoice", "src\Meicrosoft.Integrations.Worker.Invoice\Meicrosoft.Integrations.Worker.Invoice.csproj", "{17BC87B1-4E6D-4C80-9F8C-B482F295F224}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meicrosoft.Integrations.Common", "src\Meicrosoft.Integrations.Common\Meicrosoft.Integrations.Common.csproj", "{9C1082BB-23F0-406F-A866-1712689F5497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +34,15 @@ Global
 		{17BC87B1-4E6D-4C80-9F8C-B482F295F224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17BC87B1-4E6D-4C80-9F8C-B482F295F224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17BC87B1-4E6D-4C80-9F8C-B482F295F224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1082BB-23F0-406F-A866-1712689F5497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1082BB-23F0-406F-A866-1712689F5497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1082BB-23F0-406F-A866-1712689F5497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1082BB-23F0-406F-A866-1712689F5497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9045D3A8-F43A-4584-960C-C27F0BF1F350} = {9465A389-9B8B-4548-B485-D818C91C7CB4}
 		{05DB2A94-D528-4FF8-BE4E-DE5A4EA7D605} = {9465A389-9B8B-4548-B485-D818C91C7CB4}
 		{17BC87B1-4E6D-4C80-9F8C-B482F295F224} = {9465A389-9B8B-4548-B485-D818C91C7CB4}
+		{9C1082BB-23F0-406F-A866-1712689F5497} = {9465A389-9B8B-4548-B485-D818C91C7CB4}
 	EndGlobalSection
 EndGlobal

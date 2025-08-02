@@ -8,7 +8,7 @@ public class Order : Entity
 
     public Order()
     {
-        Status = EOrderStatus.Created;
+        Status = EOrderStatus.Submitted;
     }
 
     public void UpdateStatus(EOrderStatus status)

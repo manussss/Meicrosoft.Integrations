@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../Meicrosoft.Integrations.Domain/Meicrosoft.Integrations.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

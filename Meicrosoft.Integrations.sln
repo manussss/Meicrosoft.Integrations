@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9465A389-9B8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meicrosoft.Integrations.API", "src\Meicrosoft.Integrations.API\Meicrosoft.Integrations.API.csproj", "{9045D3A8-F43A-4584-960C-C27F0BF1F350}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meicrosoft.Integrations.Worker.Order", "src\Meicrosoft.Integrations.Worker.Order\Meicrosoft.Integrations.Worker.Order.csproj", "{05DB2A94-D528-4FF8-BE4E-DE5A4EA7D605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{9045D3A8-F43A-4584-960C-C27F0BF1F350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9045D3A8-F43A-4584-960C-C27F0BF1F350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9045D3A8-F43A-4584-960C-C27F0BF1F350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DB2A94-D528-4FF8-BE4E-DE5A4EA7D605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DB2A94-D528-4FF8-BE4E-DE5A4EA7D605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DB2A94-D528-4FF8-BE4E-DE5A4EA7D605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DB2A94-D528-4FF8-BE4E-DE5A4EA7D605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9045D3A8-F43A-4584-960C-C27F0BF1F350} = {9465A389-9B8B-4548-B485-D818C91C7CB4}
+		{05DB2A94-D528-4FF8-BE4E-DE5A4EA7D605} = {9465A389-9B8B-4548-B485-D818C91C7CB4}
 	EndGlobalSection
 EndGlobal

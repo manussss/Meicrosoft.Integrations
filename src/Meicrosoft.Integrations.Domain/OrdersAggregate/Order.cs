@@ -16,8 +16,8 @@ public class Order : Entity
         Status = status;
     }
 
-    public void AddOrderItem(OrderItem item)
+    public void AddOrderItem(IEnumerable<OrderItem> orderItems)
     {
-        OrderItems.Add(item);
+        OrderItems.AddRange(orderItems);
     }
 }
